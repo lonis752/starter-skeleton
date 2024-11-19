@@ -33,6 +33,14 @@ npm run build
 - template.html (template)
 - styles/main.css (styles)
 
+Make sure the following files exist:
+.gitignore
+.prettierignore
+.prettierrc
+Make sure to write in both ignore files:
+node_modules
+dist
+
 
 
 Ignore ESLint for noe as there is a bug with cross-spawn 7.0.5 19/11/2024
