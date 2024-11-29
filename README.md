@@ -13,6 +13,7 @@ enviroments in JavaScript applications including:
 - Style Loader
 - ESLint airbnb
 - Prettier
+- Jest
 - Source Map
 
 USAGE:
@@ -21,13 +22,16 @@ Copy and paste this into the command line to download respective dependencies:
 
 npm init
 
-npm i -D webpack webpack-cli html-webpack-plugin style-loader css-loader html-loader webpack-dev-server prettier
+npm i -D webpack webpack-cli html-webpack-plugin style-loader css-loader html-loader webpack-dev-server prettier jest
 
 To Run Dev Server (Port 3000):
 npm run dev
 
 To Build For Production:
 npm run build
+
+To enter auto refresh testing mode:
+npm run watch
 
 - index.js (javascript Entry Point)
 - template.html (template)
