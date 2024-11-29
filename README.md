@@ -22,7 +22,7 @@ Copy and paste this into the command line to download respective dependencies:
 
 npm init
 
-npm i -D webpack webpack-cli html-webpack-plugin style-loader css-loader html-loader webpack-dev-server prettier jest
+npm i -D webpack webpack-cli html-webpack-plugin style-loader css-loader html-loader webpack-dev-server prettier jest jest-runner-prettier
 
 To Run Dev Server (Port 3000):
 npm run dev
